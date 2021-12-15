@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Media Recorder in Javascript</title>
+    <link rel="stylesheet" href="begin.css">
+    
+  </head>
+  <style>
+      .button {
+ 		 background-color: #4CAF50;
+ 		 border: none;
+ 		 color: white;
+ 		 padding: 15px 32px;
+ 		 text-align: center;
+ 		 text-decoration: none;
+ 		 display: inline-block;
+ 		 font-size: 16px;
+ 		 margin: 4px 2px;
+ 		 cursor: pointer;
+	}    
+  </style>
+  <body>
+    <p1>answers</p1>
+    <div id="container">
+      <video id="gum" playsinline autoplay muted></video>
+      <video id="recorded" playsinline loop></video>
+
+      <div>
+        <button id="start">Start camera</button>
+        <button id="record" disabled>Record</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download my response</button>
+      </div>
+
+      <div>
+        <h4>Media Stream Constraints options</h4>
+        <p>
+          Echo cancellation: <input type="checkbox" id="echoCancellation" />
+        </p>
+      </div>
+
+      <div>
+        <span id="errorMsg"></span>
+      </div>
+    </div>
+    <nav>
+        <a href="course.html" class="button">back </a>
+    </nav>
+    <nav>
+        <a href="submit.html" class="button">submit </a>
+    </nav>
+  </body>
+  <script src="begin.js"></script>
+</html>
