@@ -1,0 +1,43 @@
+button {
+    margin: 0 3px 10px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 99px;
+  }
+  
+  button:last-of-type {
+    margin: 0;
+  }
+  
+  p.borderBelow {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+  
+  video {
+    vertical-align: top;
+    --width: 25vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.5625);
+  }
+  
+  video:last-of-type {
+    margin: 0 0 20px 0;
+  }
+  
+  video#gumVideo {
+    margin: 0 20px 20px 0;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
